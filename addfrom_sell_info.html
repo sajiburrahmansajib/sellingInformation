@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>New sell Info</title>
+  <link rel="stylesheet" href="css/semantic.min.css">
+</head>
+
+<body>
+
+<div style="background-color: #FE9A76; padding: 2%;">
+	<h1>Insert New selling  Info</h1>
+	<h4>The data will be inserted into the main database</h4>
+</div>
+<br>
+	<div class="ui text container">
+    	<form class="ui form" method="post" action="db/insert.php">
+
+        <div class="field">
+        <label>Id</label>
+        <input type="text" name="selling_id" value="XXXXXX" placeholder="Selling Id">
+      </div>
+
+         
+         <div class="field">
+        <label>Date</label>
+        <input type="text" name="date" placeholder="YYYY-MM-DD">
+      </div>
+
+      <div class="field">
+        <label>Customar Name</label>
+        <input type="text" name="customar_name"  placeholder="Customar Name">
+      </div>
+
+       <div class="field">
+        <label>Product Name</label>
+        <input type="text" name="product_name"  placeholder="Product Name">
+      </div>
+      <div class="field">
+        <label>Total Iteam</label>
+        <input type="text" name="total_iteam" placeholder="Total Iteam">
+      </div>
+      <div class="field">
+        <label>Total Bill</label>
+        <input type="text" name="total_bill" placeholder="Total Bill">
+      </div>
+      
+        
+
+      <div style="padding: 5px">
+        <button class="ui green button">submit</button>        
+     </div>
+    </form>
+</div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/semantic.min.js"></script>
+</body>
+
+</html
